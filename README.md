@@ -1,1 +1,10 @@
 # skills
+
+## test
+
+```mermaid
+pie
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
+```
