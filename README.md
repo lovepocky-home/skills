@@ -43,6 +43,7 @@ flowchart LR
   personal_effiency --> 知识管理
   personal_effiency --> 研发环境
   personal_effiency --> 编码技能
+  click 编码技能 "https://github.com/lovepocky-home/skills#编码技能"
 
   dev --> tools
   dev --> solution
