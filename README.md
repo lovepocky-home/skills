@@ -60,9 +60,11 @@ flowchart LR
   techstack --> vertx/quarkus
 
   graphql -.-> demo-angular-nestjs
+  angular -.-> demo-angular-nestjs
+  nestjs -.-> demo-angular-nestjs
 
   coo --> techmana[技术管理]
-  coo --> srcmana[代码管理] 
+  coo --> srcmana[代码管理*]:::demo
 
   techmana --> 培训TODO
 
@@ -103,6 +105,15 @@ flowchart LR
 - leetcode: <https://leetcode.com/lovepocky/>
 
 ## 协作开发流程
+
+## 补充说明
+
+### 个人效率
+
+#### 编码技能
+
+- vim + vscode
+- tmux
 
 ## 其他知识点
 
