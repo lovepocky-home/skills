@@ -19,22 +19,30 @@ flowchart LR
  
   root["/"]
   skills[职业技能]
+  style skills fill:#f9f
   dev[开发技能]
   coo[协作]
   tools[工具基础]
   solution[解决方案]
   techstack[技术栈]
   devops[运维开发]
-  docs[文档协同]
+  docs[项目文档协同]
   computerbasic[计算机基础]
+  personal_effiency[个人效率]
 
   root --> coo
   root --> skills
+  root --> personal_effiency
 
   skills --> dev
   skills --> devops
   skills --> docs
   skills --> computerbasic
+
+  personal_effiency --> 知识检索
+  personal_effiency --> 知识管理
+  personal_effiency --> 研发环境
+  personal_effiency --> 编码技能
 
   dev --> tools
   dev --> solution
@@ -58,6 +66,12 @@ flowchart LR
 
   techmana --> 培训TODO
 
+  srcmana --> 权限管理
+  srcmana --> 分支管理,基于版本和功能
+  srcmana --> 代码提交规范
+  srcmana --> 代码review/merge
+  srcmana --> release/fix
+
   %% 工具基础
   tools --> git
   tools --> vscode
@@ -78,6 +92,7 @@ flowchart LR
   devops --> kubernetes
   devops --> ansible
   devops --> jenkins
+  devops --> gitops
 
 ```
 
