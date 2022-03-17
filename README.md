@@ -43,11 +43,15 @@ flowchart LR
   personal_effiency --> 知识管理
   personal_effiency --> 研发环境
   personal_effiency --> 编码技能
-  click 编码技能 "https://github.com/lovepocky-home/skills#编码技能"
 
   dev --> tools
   dev --> solution
   dev --> techstack
+  dev --> pl[编程语言]
+
+  pl --> js/ts
+  pl --> python
+  pl --> java/scala/kotlin
 
   solution --> fullstack
 
@@ -67,7 +71,9 @@ flowchart LR
   coo --> techmana[技术管理]
   coo --> srcmana[代码管理*]:::demo
 
-  techmana --> 培训TODO
+  techmana --> 培训
+  techmana --> 文档/知识库
+  techmana --> 版本技术评审
 
   srcmana --> 权限管理
   srcmana --> 分支管理,基于版本和功能
@@ -80,8 +86,9 @@ flowchart LR
   tools --> vscode
 
   %%
-  computerbasic --> leetcode[leetcode*]
-  click leetcode "https://leetcode.com/lovepocky/"
+  %%computerbasic --> 算法
+  %%算法 --> leetcode[leetcode*]
+  %%click leetcode "https://leetcode.com/lovepocky/"
   computerbasic --> leetcode-cn[leetcode-cn*]
   click leetcode-cn "https://leetcode-cn.com/u/lovepocky/"
   computerbasic --> functional-programming
