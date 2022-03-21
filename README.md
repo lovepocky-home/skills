@@ -1,5 +1,11 @@
 # skills
 
+## 联系方式
+
+- pockynwaffle@gmail.com
+- wechat:  
+  <img src="./img/wechat.png" width="200">
+
 ## 说明
 
 目录的组织根据: 需求分类->落地方案(核心方案包括框架性的demo)
@@ -75,11 +81,11 @@ flowchart LR
   techmana --> 文档/知识库
   techmana --> 版本技术评审
 
-  srcmana --> 权限管理
+  srcmana --> 仓库管理 --> 权限管理
   srcmana --> 分支管理,基于版本和功能
   srcmana --> 代码提交规范
   srcmana --> 代码review/merge
-  srcmana --> release/fix
+  srcmana --> release/fix --> 版本管理
 
   %% 工具基础
   tools --> git
@@ -103,6 +109,7 @@ flowchart LR
   devops --> ansible
   devops --> jenkins
   devops --> gitops
+  devops --> docker
 
 ```
 
@@ -114,9 +121,29 @@ flowchart LR
 
 ## 协作开发流程
 
+- 评审
+- 开发
+- 测试
+- 发布
+  - docker镜像
+
 ## 补充说明
 
+### 协作
+
+#### 代码管理
+
+- monorepo
+
 ### 个人效率
+
+#### 研发环境
+
+- python
+  - pyenv
+  - poetry
+- node
+  - nodenv
 
 #### 编码技能
 
