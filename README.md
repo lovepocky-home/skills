@@ -2,7 +2,7 @@
 
 ## 联系方式
 
-- pockynwaffle@gmail.com
+- pockynwaffle@gmail.com / lovepocky@foxmail.com
 - wechat:  
   <img src="./img/wechat.png" width="200">
 
